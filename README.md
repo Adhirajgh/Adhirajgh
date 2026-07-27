@@ -16,9 +16,7 @@ B.Tech Information Technology Undergraduate • Full Stack Developer • AI/ML E
 
 # 🚀 About Me
 
-🎓 **B.Tech Undergraduate (2023–2027)**  
-**Information Technology**  
-Government College of Engineering & Leather Technology
+🎓 **Currently pursuing B.Tech in Information Technology at Government College of Engineering & Leather Technology**  
 
 I'm a passionate **Full Stack Developer** and **AI/ML Engineer** dedicated to creating scalable, intelligent, and user-focused software solutions. From designing engaging user interfaces to developing high-performance backend systems and AI-driven applications, I enjoy every stage of the software development lifecycle.
 
