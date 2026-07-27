@@ -574,7 +574,7 @@ Adhiraj Ghosh
         font-size="24"
         fill="#A855F7">
 
-    ▋
+  |
 
     <animate attributeName="opacity"
              values="1;0;1;0"
@@ -620,7 +620,7 @@ Adhiraj Ghosh
         font-size="24"
         fill="#A855F7">
 
-    ▋
+  |
 
     <animate attributeName="opacity"
              values="0;0;1;0;1;0"
@@ -667,7 +667,7 @@ Adhiraj Ghosh
         font-size="24"
         fill="#A855F7">
 
-    ▋
+    |
 
     <animate attributeName="opacity"
              values="0;0;0;1;0;1;0"
@@ -714,7 +714,7 @@ Adhiraj Ghosh
         font-size="24"
         fill="#A855F7">
 
-    ▋
+  |
 
     <animate attributeName="opacity"
              values="0;0;0;0;1;0;1;0"
@@ -761,7 +761,7 @@ Adhiraj Ghosh
         font-size="24"
         fill="#A855F7">
 
-    ▋
+  |
 
     <animate attributeName="opacity"
              values="0;0;0;0;0;1;0;1"
