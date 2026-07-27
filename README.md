@@ -4,7 +4,7 @@
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=800&color=002147&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;Artificial+Intelligence+and+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+and+DevOps"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=800&color=0033CC&center=true&vCenter=true&width=900&lines=Full+Stack+Development;Artificial+Intelligence+and+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+and+DevOps"/>
 
 </p>
 
