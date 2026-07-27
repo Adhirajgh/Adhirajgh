@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm <span style="color:#00BFFF;">Adhiraj Ghosh</span></h1>
 
 <h3 align="center">
-B.Tech in Information Technology (2023-27) • Full Stack Developer • AI/ML Engineer
+B.Tech in Information Technology (2023-27) | Full Stack Developer | AI/ML Engineer
 </h3>
 
 <p align="center">
