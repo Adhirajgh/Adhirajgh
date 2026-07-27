@@ -1,1 +1,193 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#09090F">
+<animate attributeName="stop-color"
+values="#09090F;#120022;#09090F"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
+<stop offset="100%" stop-color="#121826">
+<animate attributeName="stop-color"
+values="#121826;#003344;#121826"
+dur="8s"
+repeatCount="indefinite"/>
+</stop>
+</linearGradient>
+
+<linearGradient id="line" x1="0%" y1="0%" x2="100%">
+<stop offset="0%" stop-color="#8A2BE2"/>
+<stop offset="100%" stop-color="#00F7FF"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect width="1280" height="320" fill="url(#bg)"/>
+
+<!-- Animated Grid -->
+
+<g opacity="0.08">
+
+<path d="M0 40 H1280 M0 80 H1280 M0 120 H1280 M0 160 H1280 M0 200 H1280 M0 240 H1280 M0 280 H1280"
+stroke="#00F7FF"/>
+
+<path d="M80 0 V320 M160 0 V320 M240 0 V320 M320 0 V320 M400 0 V320
+M480 0 V320 M560 0 V320 M640 0 V320 M720 0 V320 M800 0 V320
+M880 0 V320 M960 0 V320 M1040 0 V320 M1120 0 V320 M1200 0 V320"
+stroke="#00F7FF"/>
+
+</g>
+
+<!-- Floating Particles -->
+
+<g fill="#8A2BE2">
+
+<circle cx="120" cy="70" r="3">
+<animate attributeName="cy" values="70;55;70" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1100" cy="80" r="2">
+<animate attributeName="cy" values="80;60;80" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="980" cy="240" r="3">
+<animate attributeName="cy" values="240;220;240" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="260" cy="260" r="2">
+<animate attributeName="cy" values="260;240;260" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- Neural Network -->
+
+<g stroke="url(#line)" stroke-width="2" opacity="0.6">
+
+<line x1="170" y1="90" x2="250" y2="150"/>
+
+<line x1="250" y1="150" x2="330" y2="80"/>
+
+<line x1="330" y1="80" x2="420" y2="170"/>
+
+<line x1="420" y1="170" x2="520" y2="110"/>
+
+</g>
+
+<g fill="#00F7FF">
+
+<circle cx="170" cy="90" r="5"/>
+
+<circle cx="250" cy="150" r="5"/>
+
+<circle cx="330" cy="80" r="5"/>
+
+<circle cx="420" cy="170" r="5"/>
+
+<circle cx="520" cy="110" r="5"/>
+
+</g>
+
+<!-- Name -->
+
+<text
+x="640"
+y="120"
+text-anchor="middle"
+font-size="56"
+font-family="Segoe UI,Arial"
+font-weight="700"
+fill="#ffffff"
+filter="url(#glow)">
+
+Adhiraj Ghosh
+
+</text>
+
+<!-- Subtitle -->
+
+<text
+x="640"
+y="170"
+text-anchor="middle"
+font-size="24"
+font-family="Segoe UI"
+fill="#00F7FF">
+
+Full Stack Developer
+
+<animate
+attributeName="opacity"
+values="1;1;0;0;0;0"
+dur="15s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="640"
+y="170"
+text-anchor="middle"
+font-size="24"
+font-family="Segoe UI"
+fill="#8A2BE2"
+opacity="0">
+
+Artificial Intelligence Engineer
+
+<animate
+attributeName="opacity"
+values="0;0;1;1;0;0"
+dur="15s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="640"
+y="170"
+text-anchor="middle"
+font-size="24"
+font-family="Segoe UI"
+fill="#00F7FF"
+opacity="0">
+
+Machine Learning Enthusiast
+
+<animate
+attributeName="opacity"
+values="0;0;0;0;1;1"
+dur="15s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- Bottom Line -->
+
+<line
+x1="180"
+y1="270"
+x2="1100"
+y2="270"
+stroke="url(#line)"
+stroke-width="3">
+
+<animate
+attributeName="stroke-dasharray"
+values="0,1000;1000,0"
+dur="3s"
+repeatCount="indefinite"/>
+
+</line>
+
+</svg>
