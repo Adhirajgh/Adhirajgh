@@ -3,12 +3,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:6C63FF,100:00F7FF&text=Adhiraj%20Ghosh&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20AI%20Engineer%20|%20UI/UX%20Designer&descAlignY=58"/>
 
 </p>
-
-<!-- ======================= HEADER ======================= -->
-
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=900&color=8A2BE2&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+Computing+Enthusiast;Building+Technology+That+Matters"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=800&color=8A2BE2&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;Artificial+Intelligence+Engineer;Machine+Learning+Enthusiast;UI%2FUX+Designer;Cloud+Computing+Enthusiast;Always+Learning+Something+New"/>
 
 </p>
 
