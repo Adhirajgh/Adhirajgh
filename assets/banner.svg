@@ -386,17 +386,46 @@ repeatCount="indefinite"/>
 
 <text
 x="640"
-y="128"
+y="120"
 text-anchor="middle"
-font-family="Orbitron, Arial"
-font-size="56"
+font-family="Arial"
+font-size="58"
 font-weight="700"
-fill="white"
-filter="url(#glow)">
+fill="#ffffff"
+opacity=".18"
+filter="url(#blurGlow)">
 
 Adhiraj Ghosh
 
 </text>
+
+    <text
+x="640"
+y="120"
+text-anchor="middle"
+font-family="Arial"
+font-size="58"
+font-weight="700"
+fill="#ffffff"
+opacity=".55">
+
+Adhiraj Ghosh
+
+</text>
+
+    <text
+x="640"
+y="120"
+text-anchor="middle"
+font-family="Arial"
+font-size="58"
+font-weight="700"
+fill="#ffffff">
+
+Adhiraj Ghosh
+
+</text>
+    
 <!-- FULL STACK -->
 
 <text
