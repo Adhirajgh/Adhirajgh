@@ -422,6 +422,18 @@ repeatCount="indefinite"/>
 
     </circle>
 
+    <circle r="3" fill="white">
+
+<animateMotion
+
+dur="4s"
+
+repeatCount="indefinite"
+
+path="M70 170 L130 120 L190 150 L270 70"/>
+
+</circle>
+
     <!-- CROSSHAIR -->
 
     <line
