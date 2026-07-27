@@ -1,193 +1,223 @@
-<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="320"
+viewBox="0 0 1280 320"
+xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+.bg{
+animation:bgmove 8s ease infinite;
+}
+
+.grid{
+opacity:.08;
+}
+
+.scan{
+animation:scan 5s linear infinite;
+}
+
+.glow{
+filter:url(#glow);
+}
+
+.border{
+stroke:url(#borderGradient);
+stroke-width:2;
+fill:none;
+}
+
+@keyframes scan{
+
+0%{
+transform:translateY(-340px);
+}
+
+100%{
+transform:translateY(340px);
+}
+
+}
+
+@keyframes bgmove{
+
+0%{
+transform:translateX(0px);
+}
+
+50%{
+transform:translateX(-40px);
+}
+
+100%{
+transform:translateX(0px);
+}
+
+}
+
+</style>
 
 <defs>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#09090F">
-<animate attributeName="stop-color"
-values="#09090F;#120022;#09090F"
-dur="8s"
-repeatCount="indefinite"/>
-</stop>
-<stop offset="100%" stop-color="#121826">
-<animate attributeName="stop-color"
-values="#121826;#003344;#121826"
-dur="8s"
-repeatCount="indefinite"/>
-</stop>
+<linearGradient id="bgGradient">
+
+<stop offset="0%" stop-color="#080812"/>
+
+<stop offset="50%" stop-color="#11162A"/>
+
+<stop offset="100%" stop-color="#041A25"/>
+
 </linearGradient>
 
-<linearGradient id="line" x1="0%" y1="0%" x2="100%">
+<linearGradient id="borderGradient">
+
 <stop offset="0%" stop-color="#8A2BE2"/>
+
 <stop offset="100%" stop-color="#00F7FF"/>
+
 </linearGradient>
 
 <filter id="glow">
-<feGaussianBlur stdDeviation="5" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
+
+<feGaussianBlur stdDeviation="4"/>
+
 </filter>
 
 </defs>
 
-<rect width="1280" height="320" fill="url(#bg)"/>
+<!-- Background -->
 
-<!-- Animated Grid -->
+<rect width="1280"
+height="320"
+fill="url(#bgGradient)"
+class="bg"/>
 
-<g opacity="0.08">
+<!-- Grid -->
 
-<path d="M0 40 H1280 M0 80 H1280 M0 120 H1280 M0 160 H1280 M0 200 H1280 M0 240 H1280 M0 280 H1280"
-stroke="#00F7FF"/>
+<g class="grid">
 
-<path d="M80 0 V320 M160 0 V320 M240 0 V320 M320 0 V320 M400 0 V320
-M480 0 V320 M560 0 V320 M640 0 V320 M720 0 V320 M800 0 V320
-M880 0 V320 M960 0 V320 M1040 0 V320 M1120 0 V320 M1200 0 V320"
-stroke="#00F7FF"/>
+<!-- Horizontal -->
 
-</g>
+<g stroke="#00F7FF">
 
-<!-- Floating Particles -->
+<line x1="0" y1="40" x2="1280" y2="40"/>
 
-<g fill="#8A2BE2">
+<line x1="0" y1="80" x2="1280" y2="80"/>
 
-<circle cx="120" cy="70" r="3">
-<animate attributeName="cy" values="70;55;70" dur="4s" repeatCount="indefinite"/>
-</circle>
+<line x1="0" y1="120" x2="1280" y2="120"/>
 
-<circle cx="1100" cy="80" r="2">
-<animate attributeName="cy" values="80;60;80" dur="5s" repeatCount="indefinite"/>
-</circle>
+<line x1="0" y1="160" x2="1280" y2="160"/>
 
-<circle cx="980" cy="240" r="3">
-<animate attributeName="cy" values="240;220;240" dur="6s" repeatCount="indefinite"/>
-</circle>
+<line x1="0" y1="200" x2="1280" y2="200"/>
 
-<circle cx="260" cy="260" r="2">
-<animate attributeName="cy" values="260;240;260" dur="5s" repeatCount="indefinite"/>
-</circle>
+<line x1="0" y1="240" x2="1280" y2="240"/>
+
+<line x1="0" y1="280" x2="1280" y2="280"/>
 
 </g>
 
-<!-- Neural Network -->
+<!-- Vertical -->
 
-<g stroke="url(#line)" stroke-width="2" opacity="0.6">
+<g stroke="#00F7FF">
 
-<line x1="170" y1="90" x2="250" y2="150"/>
+<line x1="40" y1="0" x2="40" y2="320"/>
 
-<line x1="250" y1="150" x2="330" y2="80"/>
+<line x1="80" y1="0" x2="80" y2="320"/>
 
-<line x1="330" y1="80" x2="420" y2="170"/>
+<line x1="120" y1="0" x2="120" y2="320"/>
 
-<line x1="420" y1="170" x2="520" y2="110"/>
+<line x1="160" y1="0" x2="160" y2="320"/>
+
+<line x1="200" y1="0" x2="200" y2="320"/>
+
+<line x1="240" y1="0" x2="240" y2="320"/>
+
+<line x1="280" y1="0" x2="280" y2="320"/>
+
+<line x1="320" y1="0" x2="320" y2="320"/>
+
+<line x1="360" y1="0" x2="360" y2="320"/>
+
+<line x1="400" y1="0" x2="400" y2="320"/>
+
+<line x1="440" y1="0" x2="440" y2="320"/>
+
+<line x1="480" y1="0" x2="480" y2="320"/>
+
+<line x1="520" y1="0" x2="520" y2="320"/>
+
+<line x1="560" y1="0" x2="560" y2="320"/>
+
+<line x1="600" y1="0" x2="600" y2="320"/>
+
+<line x1="640" y1="0" x2="640" y2="320"/>
+
+<line x1="680" y1="0" x2="680" y2="320"/>
+
+<line x1="720" y1="0" x2="720" y2="320"/>
+
+<line x1="760" y1="0" x2="760" y2="320"/>
+
+<line x1="800" y1="0" x2="800" y2="320"/>
+
+<line x1="840" y1="0" x2="840" y2="320"/>
+
+<line x1="880" y1="0" x2="880" y2="320"/>
+
+<line x1="920" y1="0" x2="920" y2="320"/>
+
+<line x1="960" y1="0" x2="960" y2="320"/>
+
+<line x1="1000" y1="0" x2="1000" y2="320"/>
+
+<line x1="1040" y1="0" x2="1040" y2="320"/>
+
+<line x1="1080" y1="0" x2="1080" y2="320"/>
+
+<line x1="1120" y1="0" x2="1120" y2="320"/>
+
+<line x1="1160" y1="0" x2="1160" y2="320"/>
+
+<line x1="1200" y1="0" x2="1200" y2="320"/>
+
+<line x1="1240" y1="0" x2="1240" y2="320"/>
 
 </g>
 
-<g fill="#00F7FF">
-
-<circle cx="170" cy="90" r="5"/>
-
-<circle cx="250" cy="150" r="5"/>
-
-<circle cx="330" cy="80" r="5"/>
-
-<circle cx="420" cy="170" r="5"/>
-
-<circle cx="520" cy="110" r="5"/>
-
 </g>
 
-<!-- Name -->
+<!-- Animated Scan -->
 
-<text
-x="640"
-y="120"
-text-anchor="middle"
-font-size="56"
-font-family="Segoe UI,Arial"
-font-weight="700"
-fill="#ffffff"
-filter="url(#glow)">
+<rect
+class="scan"
+x="0"
+y="-320"
+width="1280"
+height="40"
+fill="url(#borderGradient)"
+opacity=".08"/>
 
-Adhiraj Ghosh
+<!-- Outer Border -->
 
-</text>
+<rect
+x="8"
+y="8"
+width="1264"
+height="304"
+rx="8"
+class="border"/>
 
-<!-- Subtitle -->
+<!-- Corner Decorations -->
 
-<text
-x="640"
-y="170"
-text-anchor="middle"
-font-size="24"
-font-family="Segoe UI"
-fill="#00F7FF">
+<g stroke="#8A2BE2" stroke-width="4">
 
-Full Stack Developer
+<polyline points="22,42 22,22 42,22"/>
 
-<animate
-attributeName="opacity"
-values="1;1;0;0;0;0"
-dur="15s"
-repeatCount="indefinite"/>
+<polyline points="1258,42 1258,22 1238,22"/>
 
-</text>
+<polyline points="22,278 22,298 42,298"/>
 
-<text
-x="640"
-y="170"
-text-anchor="middle"
-font-size="24"
-font-family="Segoe UI"
-fill="#8A2BE2"
-opacity="0">
+<polyline points="1258,278 1258,298 1238,298"/>
 
-Artificial Intelligence Engineer
-
-<animate
-attributeName="opacity"
-values="0;0;1;1;0;0"
-dur="15s"
-repeatCount="indefinite"/>
-
-</text>
-
-<text
-x="640"
-y="170"
-text-anchor="middle"
-font-size="24"
-font-family="Segoe UI"
-fill="#00F7FF"
-opacity="0">
-
-Machine Learning Enthusiast
-
-<animate
-attributeName="opacity"
-values="0;0;0;0;1;1"
-dur="15s"
-repeatCount="indefinite"/>
-
-</text>
-
-<!-- Bottom Line -->
-
-<line
-x1="180"
-y1="270"
-x2="1100"
-y2="270"
-stroke="url(#line)"
-stroke-width="3">
-
-<animate
-attributeName="stroke-dasharray"
-values="0,1000;1000,0"
-dur="3s"
-repeatCount="indefinite"/>
-
-</line>
+</g>
 
 </svg>
