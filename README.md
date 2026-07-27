@@ -214,8 +214,6 @@ I enjoy solving real-world problems through software engineering, machine learni
 
 | Project | Description |
 |---------|-------------|
-| 🐟 MatsyAI | AI-powered Fish Freshness Detection |
-| 🧵 ReshamKrishi | Silkworm Disease Detection using AI |
 | 🎓 Course Management System | Full Stack Educational Platform |
 | 🧮 Hackazard Math Tutor | Interactive Learning Platform |
 
