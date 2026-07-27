@@ -1,3 +1,9 @@
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:6C63FF,100:00F7FF&text=Adhiraj%20Ghosh&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20|%20AI%20Engineer%20|%20UI/UX%20Designer&descAlignY=58"/>
+
+</p>
+
 <!-- ======================= HEADER ======================= -->
 
 <h1 align="center">Hi 👋, I'm <span style="color:#00BFFF;">Adhiraj Ghosh</span></h1>
