@@ -20,10 +20,11 @@ B.Tech Information Technology Undergraduate • Full Stack Developer • AI/ML E
 **Information Technology**  
 Government College of Engineering & Leather Technology
 
-I'm a passionate software developer who enjoys designing and building complete digital products—from intuitive user interfaces to scalable backend systems and AI-powered applications.
+I'm a passionate **Full Stack Developer** and **AI/ML Engineer** dedicated to creating scalable, intelligent, and user-focused software solutions. From designing engaging user interfaces to developing high-performance backend systems and AI-driven applications, I enjoy every stage of the software development lifecycle.
 
-I enjoy solving real-world problems through software engineering, machine learning, and thoughtful product design. My work is driven by curiosity, continuous learning, and attention to detail.
+My technical interests include **software engineering**, **artificial intelligence**, **machine learning**, **cloud computing**, **database systems**, and **UI/UX design**. I thrive on solving challenging problems through clean architecture, efficient algorithms, and thoughtful product design.
 
+Beyond writing code, I'm a lifelong learner fueled by curiosity and continuous improvement. I actively explore emerging technologies, contribute to innovative projects, and strive to build software that delivers meaningful real-world impact.
 ---
 
 # 💡 What I Do
