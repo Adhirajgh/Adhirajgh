@@ -6,12 +6,6 @@
 
 <!-- ======================= HEADER ======================= -->
 
-<h1 align="center">Hi 👋, I'm <span style="color:#00BFFF;">Adhiraj Ghosh</span></h1>
-
-<h3 align="center">
-B.Tech in Information Technology (2023-27) | Full Stack Developer | AI/ML Engineer
-</h3>
-
 <p align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=900&color=8A2BE2&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+Computing+Enthusiast;Building+Technology+That+Matters"/>
