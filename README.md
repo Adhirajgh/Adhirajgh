@@ -8,7 +8,7 @@ B.Tech Information Technology Undergraduate • Full Stack Developer • AI/ML E
 
 <p align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=900&color=00F7FF&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+Computing+Enthusiast;Building+Technology+That+Matters"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&center=true&vCenter=true&width=900&color=8A2BE2&lines=Full+Stack+Developer;AI+%26+Machine+Learning+Engineer;UI%2FUX+Designer;Cloud+Computing+Enthusiast;Building+Technology+That+Matters"/>
 
 </p>
 
