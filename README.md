@@ -16,7 +16,7 @@
 
 <p align="center">
 
-<a href="https://github.com/Adhirajh">
+<a href="https://github.com/Adhirajgh">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
@@ -255,7 +255,7 @@ Beyond writing code, I'm a lifelong learner fueled by curiosity and continuous i
 
 <p align="center">
 
-<a href="https://github.com/Adhirajh">
+<a href="https://github.com/Adhirajgh">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
