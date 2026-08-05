@@ -220,7 +220,7 @@ Beyond writing code, I'm a lifelong learner fueled by curiosity and continuous i
 
 <p align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adhirajh&theme=react-dark"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Adhirajgh&theme=react-dark"/>
 
 </p>
 
